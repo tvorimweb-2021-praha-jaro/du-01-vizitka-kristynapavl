@@ -1,6 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.kontakt {text-align: center;
+    background-color: #464646;
+}
+
+
+.kontakt li {display: inline-block;
+    padding:  0.5rem 0;
+}
+
+.kontakt a {padding: 3rem;
+            color: #949494;
+            
+}
+
 h1 {font-family: 'Roboto', sans-serif;
-    font-size: 32px;
-    margin: 0px 0px 20px 0px;
+    font-size: 24px;
+    margin: 10rem 0 3rem 0;
+    text-align: center;
     }
 
 body{color: #464646;
@@ -8,21 +33,20 @@ body{color: #464646;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    margin: 0px; }
+    
+}
+
    
-.foto {width: 30%;
+.logo-kp {width: 30%;
     border-radius: 3px;
-    float: left;
-    margin: 0px 30px 30px 0px;
+    margin: -21rem 1rem 1rem 0rem;
 }    
 
-a {color:#145155}
-
-.boxik {background-color: white;
-        overflow: auto;
-        margin-top: 50px;
-        margin-left: 50px;
-        margin-right: 50%;
-        padding: 20px 30px 0px 30px;
-        border-radius: 0px 20px 0px 20px;
+nav {text-align: center; 
+    
 }
+
+nav img {display: inline-block;
+         width: 28%;
+        margin: 0 0.1rem 0 0.1rem;
+    }
